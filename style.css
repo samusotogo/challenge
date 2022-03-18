@@ -9,9 +9,10 @@
 body{
     display: flex;
     flex-direction: row;
-    align-items: center;
+    
     height: 100vh;
-		width: 100vw;
+	width: 100vw;
+
 }
 
 .contenedor{
@@ -21,7 +22,7 @@ body{
     width: 700px;
     background-color:white;
     border-radius: 10px;
-    position: relative;
+    position: relative;	
 }
 
 .contenedor .caja-1{
@@ -84,27 +85,34 @@ body{
 }
 
 @media (max-width: 750px){
-	
+
 	.contenedor{
 	flex-direction: column;
 	align-items: center;
-	height:auto;
+	height: 140vh;
 	margin: 20px auto;
 	}
 
 	.contenedor .caja-1{
 		width: 80%;
-		height: 500px;
+		height: 300px; 
+		position: relative;
 	}
 
 	.contenedor .caja-2{
 		width: 80%;
-		height: 500px;
+		height: 300px;
+		position: relative;
 	}
 
 	.contenedor .caja-3{
 		width: 80%;
-		height: 500px;
+		height: 300px;
+		position: relative;
 	}
-
+	.contenedor  .boton{
+		position: absolute;
+		top: 90;
+		left: 25;
+	}
 }
